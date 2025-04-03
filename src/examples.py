@@ -10,21 +10,18 @@ def himmelblau(x):
 
 
 def f(x):
-      # return x[0]**2
-     # return x[0]**2 + x[1]**2
-    #  return (x[0]-3)**2 +(x[1]+ 2)**2
-    # return x[0] ** 2 + x[1] ** 2 + (x[0] - 1) ** 2 + (x[1] - 1) ** 2
+    # return x[0]**2
+    # return x[0]**2 + x[1]**2
+    # return (x[0]-3)**2 +(x[1]+ 2)**2
+     return x[0] ** 2 + x[1] ** 2 + (x[0] - 1) ** 2 + (x[1] - 1) ** 2
     # return np.sin(0.5 * x[0] ** 2 - 0.25 * x[1] ** 2 + 3) * np.cos(2 * x[0] + 1 - np.exp(x[1]))
-    return  (x[0] - 3)**2 + (x[1] + 2)**2 + x[0] * x[1]
+    # return  (x[0] - 3)**2 + (x[1] + 2)**2 + x[0] * x[1]
     # return -x[0]**2 - x[1]**2
     # return abs(x[0]) + abs(x[1])
 
 
     # 'L-BFGS-B' LSR
     # 'BFGS' DICHT
-
-
-
 
 func = himmelblau
 start_pos = np.array([4, 1])
